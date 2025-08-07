@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         "No existe el bien ni el mal, solo existe el poder y aquellos demasiado débiles para ejercerlo."
     ];
 
-    let quoteIndex = 0;
+    let quoteIndex = 1;
     setInterval(() => {
         quoteBox.innerText = quotes[quoteIndex];
         quoteIndex = (quoteIndex + 1) % quotes.length;
